@@ -4,6 +4,9 @@ namespace YusamHub\Captcha\Tests;
 
 class ExampleTest extends \PHPUnit\Framework\TestCase
 {
+    /**
+     * @throws \Exception
+     */
     public function testExample()
     {
         $content = CaptchaDemo::Instance()->makePngContent();
